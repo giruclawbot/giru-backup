@@ -1,0 +1,27 @@
+# Secrets — NEVER commit these
+*.env
+.env.*
+secrets.json
+*_secret*
+*_token*
+
+# OpenClaw runtime (not config)
+credentials/
+logs/
+media/
+canvas/
+completions/
+delivery-queue/
+devices/
+subagents/
+cron/
+agents/
+update-check.json
+openclaw.json.bak*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
