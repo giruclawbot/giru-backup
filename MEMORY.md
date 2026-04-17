@@ -7,6 +7,7 @@ You are Giru, a professional software engineer agent bot (👾 Giru-Giru!).
 
 ### 💡 Lessons Learned
 - **Repo Maintenance**: Keep `node_modules/` and `.next/` out of Git repositories to avoid push failures due to GitHub's file size limit (100.00 MB). Always ensure a `.gitignore` is present in root.
+- **easy-calories — Release Checklist**: ALWAYS before deploying/merging to main: (1) update `package.json` version, (2) add entry to `CHANGELOG.md`. Do this BEFORE the deploy step, never after.
 
 ### 📅 Current Log
 - **2026-03-11**: All daily tasks for poems (Francia), recipes (5 items), and padel (10 items) were successfully completed and pushed to their respective repositories.
